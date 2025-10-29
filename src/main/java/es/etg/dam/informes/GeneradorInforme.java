@@ -1,5 +1,7 @@
 package es.etg.dam.informes;
 
-public class GeneradorInforme {
+public interface GeneradorInforme {
+    public void generar() throws Exception;
 
+    public void guardar(String contenido, String ruta) throws Exception;
 }
