@@ -29,7 +29,7 @@ public class ServicioEmergencia {
 
             datos.addAll(leer(bote));
 
-            System.out.println(id + " bote generado correctamente");
+            System.out.println(id + " generado correctamente");
         }
 
         readactarInforme(datos, Formato.MARKDOWN, RUTA);
