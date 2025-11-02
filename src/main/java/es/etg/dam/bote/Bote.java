@@ -1,4 +1,4 @@
-package es.etg.dam.botes;
+package es.etg.dam.bote;
 
 import java.util.Random;
 
@@ -19,24 +19,30 @@ public class Bote {
     private static final Random RANDOM = new Random();
     private static final String SALTO = "\n";
     private static final int PRIMER_PARAMETRO = 0;
+    private static final Persona persona = new Persona();
 
     public static void main(String[] args) throws Exception {
         Bote bote = new Bote(args[PRIMER_PARAMETRO]);
         bote.generarPersonas();
-        bote.simularEmbarque();
         System.out.println(bote.comunicarDatos());
     }
 
-    private void simularEmbarque() throws Exception {
+    private void simularConteo() throws Exception {
         int delay = 2000 + RANDOM.nextInt(4000);
         Thread.sleep(delay);
     }
 
-    private void generarPersonas() {
+    private void generarPersonas() throws Exception {
         total = RANDOM.nextInt(100) + 1;
-        mujeres = RANDOM.nextInt(total + 1);
-        hombres = RANDOM.nextInt(total - mujeres + 1);
-        ninos = total - mujeres - hombres;
+        for (int i = 0; i < total; i++) {
+            switch (persona.determinarTipo()) {
+                case 'M' -> mujeres += 1;
+                case 'H' -> hombres += 1;
+                case 'N' -> ninos += 1;
+                default -> throw new AssertionError();
+            }
+        }
+        simularConteo();
     }
 
     private String comunicarDatos() {

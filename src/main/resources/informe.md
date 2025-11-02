@@ -1,129 +1,149 @@
 # SERVICIO DE EMERGENCIAS
 
-Ejecución realizada el día 31/10/2025 a las 08:05:51
+Ejecución realizada el día 02/11/2025 a las 17:42:51
 
 ## Bote B00
-- Total Salvados 34
-  - Mujeres 19
-  - Hombres 12
-  - Niños 3
+
+- Total Salvados 65
+  - Mujeres 21
+  - Hombres 29
+  - Niños 15
 
 ## Bote B01
-- Total Salvados 59
+
+- Total Salvados 55
   - Mujeres 19
-  - Hombres 36
-  - Niños 4
+  - Hombres 16
+  - Niños 20
 
 ## Bote B02
-- Total Salvados 13
-  - Mujeres 7
-  - Hombres 0
-  - Niños 6
+
+- Total Salvados 26
+  - Mujeres 6
+  - Hombres 6
+  - Niños 14
 
 ## Bote B03
-- Total Salvados 84
-  - Mujeres 52
-  - Hombres 4
-  - Niños 28
+
+- Total Salvados 64
+  - Mujeres 16
+  - Hombres 24
+  - Niños 24
 
 ## Bote B04
-- Total Salvados 46
-  - Mujeres 31
-  - Hombres 8
-  - Niños 7
+
+- Total Salvados 50
+  - Mujeres 19
+  - Hombres 17
+  - Niños 14
 
 ## Bote B05
-- Total Salvados 21
-  - Mujeres 6
-  - Hombres 14
-  - Niños 1
+
+- Total Salvados 87
+  - Mujeres 26
+  - Hombres 28
+  - Niños 33
 
 ## Bote B06
-- Total Salvados 98
-  - Mujeres 12
-  - Hombres 57
-  - Niños 29
+
+- Total Salvados 11
+  - Mujeres 2
+  - Hombres 5
+  - Niños 4
 
 ## Bote B07
-- Total Salvados 84
-  - Mujeres 23
-  - Hombres 26
-  - Niños 35
+
+- Total Salvados 46
+  - Mujeres 17
+  - Hombres 16
+  - Niños 13
 
 ## Bote B08
-- Total Salvados 84
-  - Mujeres 80
-  - Hombres 1
-  - Niños 3
+
+- Total Salvados 57
+  - Mujeres 16
+  - Hombres 21
+  - Niños 20
 
 ## Bote B09
-- Total Salvados 89
-  - Mujeres 32
-  - Hombres 25
-  - Niños 32
+
+- Total Salvados 51
+  - Mujeres 25
+  - Hombres 13
+  - Niños 13
 
 ## Bote B10
-- Total Salvados 51
-  - Mujeres 30
-  - Hombres 18
-  - Niños 3
+
+- Total Salvados 32
+  - Mujeres 11
+  - Hombres 10
+  - Niños 11
 
 ## Bote B11
-- Total Salvados 22
-  - Mujeres 12
-  - Hombres 10
-  - Niños 0
+
+- Total Salvados 25
+  - Mujeres 11
+  - Hombres 8
+  - Niños 6
 
 ## Bote B12
-- Total Salvados 40
-  - Mujeres 25
-  - Hombres 12
-  - Niños 3
+
+- Total Salvados 23
+  - Mujeres 11
+  - Hombres 6
+  - Niños 6
 
 ## Bote B13
-- Total Salvados 82
-  - Mujeres 80
-  - Hombres 2
-  - Niños 0
+
+- Total Salvados 22
+  - Mujeres 10
+  - Hombres 8
+  - Niños 4
 
 ## Bote B14
-- Total Salvados 50
-  - Mujeres 11
-  - Hombres 7
-  - Niños 32
+
+- Total Salvados 42
+  - Mujeres 15
+  - Hombres 14
+  - Niños 13
 
 ## Bote B15
-- Total Salvados 20
-  - Mujeres 0
-  - Hombres 13
-  - Niños 7
+
+- Total Salvados 61
+  - Mujeres 25
+  - Hombres 19
+  - Niños 17
 
 ## Bote B16
-- Total Salvados 4
-  - Mujeres 1
-  - Hombres 3
-  - Niños 0
+
+- Total Salvados 14
+  - Mujeres 4
+  - Hombres 6
+  - Niños 4
 
 ## Bote B17
-- Total Salvados 82
-  - Mujeres 58
-  - Hombres 19
-  - Niños 5
+
+- Total Salvados 17
+  - Mujeres 6
+  - Hombres 4
+  - Niños 7
 
 ## Bote B18
-- Total Salvados 80
-  - Mujeres 9
-  - Hombres 36
-  - Niños 35
+
+- Total Salvados 60
+  - Mujeres 21
+  - Hombres 14
+  - Niños 25
 
 ## Bote B19
-- Total Salvados 15
-  - Mujeres 14
-  - Hombres 0
-  - Niños 1
+
+- Total Salvados 89
+  - Mujeres 30
+  - Hombres 35
+  - Niños 24
 
 ## Total
-- Total Salvados 1058
-  - Mujeres 521
-  - Hombres 303
-  - Niños 234
+- Total Salvados 897
+  - Mujeres 311
+  - Hombres 299
+  - Niños 287

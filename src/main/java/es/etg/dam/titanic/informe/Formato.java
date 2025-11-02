@@ -1,4 +1,4 @@
-package es.etg.dam.titanic.informes;
+package es.etg.dam.titanic.informe;
 
 public enum Formato {
     MARKDOWN, HTML

@@ -1,4 +1,4 @@
-package es.etg.dam.titanic.informes;
+package es.etg.dam.titanic.informe;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -15,7 +15,7 @@ public class GeneradorMarkdown implements GeneradorInforme {
     private static final String ETIQUETA_HOMBRES = "Hombres";
     private static final String ETIQUETA_NINOS = "Niños";
 
-    private static final String FORMATO_BLOQUE_BOTE = "## Bote %s\n- %s %d\n  - %s %d\n  - %s %d\n  - %s %d\n\n";
+    private static final String FORMATO_BLOQUE_BOTE = "## Bote %s\n\n- %s %d\n  - %s %d\n  - %s %d\n  - %s %d\n\n";
     private static final String FORMATO_RESUMEN = "## Total\n- %s %d\n  - %s %d\n  - %s %d\n  - %s %d";
 
     @Override
