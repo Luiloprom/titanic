@@ -5,18 +5,19 @@ Programa realizado por **Luis Miguel López Romero**
 
 ## 2. Índice
 
-1. [Titanic](#1-titanic)  
-2. [Índice](#2-índice)  
-3. [Análisis del problema](#3-analisis-del-problema)  
-4. [Diseño de la solución](#4-diseño-de-la-solucion)  
-   4.1. [Diseño en líneas](#41-diseño-en-lineas)  
-   4.2. [Diseño en UML](#42-diseño-en-uml)  
-5. [Plan de pruebas](#5-plan-de-pruebas)  
-6. [Manual de usuario](#6-manual-de-usuario)  
-7. [Notas](#7-notas)  
-   7.1. [Elementos destacables del desarrollo](#71-elementos-destacables-del-desarrollo)  
-   7.2. [Problemas encontrados](#72-problemas-encontrados)  
-   7.3. [Conclusiones personales](#73-conclusiones-personales)  
+- [1. Titanic](#1-titanic)
+- [2. Índice](#2-índice)
+- [3. Analisis del problema](#3-analisis-del-problema)
+- [4. Diseño de la solucion](#4-diseño-de-la-solucion)
+  - [4.1 Diseño en lineas](#41-diseño-en-lineas)
+  - [4.2 Diseño en UML](#42-diseño-en-uml)
+- [5. Plan de pruebas](#5-plan-de-pruebas)
+- [6. Manual de usuario](#6-manual-de-usuario)
+- [7. Notas](#7-notas)
+  - [7.1 Elementos destacables del desarrollo](#71-elementos-destacables-del-desarrollo)
+  - [7.2 Problemas encontrados](#72-problemas-encontrados)
+  - [7.3 Conclusiones personales](#73-conclusiones-personales)
+  - [7.4 Anexos](#74-anexos)
 
 ---
 
@@ -163,3 +164,9 @@ Y usa Junit, Mockito y Lombock
 ### 7.3 Conclusiones personales
 A la siguiente hare el diseño y el analisis antes de codificar ya que hace que codificando no tengas casi que pensar. 
 Y repasare Junit para hacer mejores test
+
+### 7.4 Anexos
+
+Adjunto foto del diseñoUML 
+
+![diseño](imagenes/Diseño.png)
