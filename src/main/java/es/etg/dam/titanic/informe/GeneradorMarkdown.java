@@ -6,24 +6,25 @@ import java.util.List;
 
 public class GeneradorMarkdown implements GeneradorInforme {
 
-    private static final String ENCABEZADO = "# SERVICIO DE EMERGENCIAS";
-    private static final String FECHA = "dd/MM/yyyy 'a las' HH:mm:ss";
-    private static final String SEPARADOR = "\n\n";
+    private final String MSG_EJECUCION = "Ejecución realizada el día ";
+    private final String ENCABEZADO = "# SERVICIO DE EMERGENCIAS";
+    private final String FECHA = "dd/MM/yyyy 'a las' HH:mm:ss";
+    private final String SEPARADOR = "\n\n";
 
-    private static final String ETIQUETA_TOTAL_SALVADOS = "Total Salvados";
-    private static final String ETIQUETA_MUJERES = "Mujeres";
-    private static final String ETIQUETA_HOMBRES = "Hombres";
-    private static final String ETIQUETA_NINOS = "Niños";
+    private final String ETIQUETA_TOTAL_SALVADOS = "Total Salvados";
+    private final String ETIQUETA_MUJERES = "Mujeres";
+    private final String ETIQUETA_HOMBRES = "Hombres";
+    private final String ETIQUETA_NINOS = "Niños";
 
-    private static final String FORMATO_BLOQUE_BOTE = "## Bote %s\n\n- %s %d\n  - %s %d\n  - %s %d\n  - %s %d\n\n";
-    private static final String FORMATO_RESUMEN = "## Total\n- %s %d\n  - %s %d\n  - %s %d\n  - %s %d";
+    private final String FORMATO_BLOQUE_BOTE = "## Bote %s\n\n- %s %d\n  - %s %d\n  - %s %d\n  - %s %d\n\n";
+    private final String FORMATO_RESUMEN = "## Total\n- %s %d\n  - %s %d\n  - %s %d\n  - %s %d";
 
     @Override
     public String generar(List<String> datos) {
         StringBuilder sb = new StringBuilder();
 
         sb.append(ENCABEZADO).append(SEPARADOR);
-        sb.append("Ejecución realizada el día ")
+        sb.append(MSG_EJECUCION)
                 .append(LocalDateTime.now().format(DateTimeFormatter.ofPattern(FECHA))).append(SEPARADOR);
 
         int totalSalvados = 0, totalMujeres = 0, totalHombres = 0, totalNinos = 0;
